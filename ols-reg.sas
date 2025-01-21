@@ -1,5 +1,5 @@
 ************************************************************************************************;
-*Title       :  BS803 Final Project                                                             ;
+*Title       :  ols-reg                                                            ;
 *Author      :  Thanwi Anna Lalu                                                                ;
 *Program Name:  ols-reg                                                                         ;
 *Description :  Macro to run multiple linear regression                                         ; 
