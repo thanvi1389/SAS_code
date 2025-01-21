@@ -8,8 +8,7 @@ The %ols_reg macro performs multiple linear regression and outputs:
 3.	R-squared and adjusted R-squared statistics. 
 4.	Optional ANOVA results, including F-statistic and p-values. 
 
-Parameters 
- 
+Parameters  
         data: The input dataset containing the outcome and predictor variables. 
 	outcome: The dependent (outcome) variable.  
         predictor: A space-separated list of independent (predictor) variables. 
