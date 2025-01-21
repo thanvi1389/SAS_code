@@ -17,8 +17,9 @@ Parameters:
         	
 How to Use %ols_reg: 
 Set Path: Specify the directory containing the macro and dataset: 
-eg:        %let path = /home/u63980097/sasuser.v94/SAS_Thanwi/BS803;	
-					 libname BS803 "&path.";  
+eg:        
+%let path = /home/u63980097/sasuser.v94/SAS_Thanwi/BS803;	
+	   libname BS803 "&path.";  
            %include "&path./ols-reg.sas";  
 1.	Prepare the Dataset: Ensure your dataset is accessible in the specified library. 
 2.	Run the Macro: Call the macro with the required parameters as shown in the example above. 
