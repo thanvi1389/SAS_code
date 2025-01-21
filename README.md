@@ -13,15 +13,12 @@ Parameters
 3.	predictor: A space-separated list of independent (predictor) variables 
 4.	miss: The value that indicates missing data in the dataset (default: .).
 5.	reg: Controls whether ANOVA results are included. Default is Y (include ANOVA).
-6.	format: Specifies the output format: 
-        	P: PDF
-	        R: RTF 
+6.	format: Specifies the output format:
+                P: PDF
+  	        R: RTF  
+        	
+	         
         
-	
-          
-        
-	
-  
 How to Use %ols_reg 
 Set Path: Specify the directory containing the macro and dataset: 
 eg:        %let path = /home/u63980097/sasuser.v94/SAS_Thanwi/BS803; libname BS803 "&path."; 
