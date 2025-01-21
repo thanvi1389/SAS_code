@@ -24,7 +24,7 @@ eg:     %let path = /home/u63980097/sasuser.v94/SAS_Thanwi/BS803;	              
 2.	Run the Macro: Call the macro with the required parameters as shown in the example above. 
 3.	Locate the Output: Check the specified directory for the output file (_ols_results.pdf or _ols_results.rtf). 
  
-Syntax : %ols_reg(data=dataset, outcome=dependent_variable, predictor= list of variables,   miss=missing_value_code,    reg=Y_or_N, format=output_format);  
+Syntax : %ols_reg(data=dataset, outcome=dependent_variable, predictor= list of variables, miss=missing_value_code, reg=Y_or_N, format=output_format);  
   
 Example Run: %ols_reg(data=bs803.framdat2, outcome=DTH, predictor=AGE SEX CHD SPF GLI CSM FVC, format=P); 
   
