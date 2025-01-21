@@ -1,8 +1,7 @@
 Objective 
 A macro to perform multiple linear regression using ordinary least squares (OLS) estimation from first principles. The implementation avoids using built-in linear regression function, focusing instead on coding the mathematical computations for regression. 
   
-Function Overview: %ols_reg 
-The %ols_reg macro performs multiple linear regression and outputs: 
+Function Overview: The %ols_reg macro performs multiple linear regression and outputs: 
 1.	Parameter estimates for predictors. 
 2.	Standard errors of estimates. 
 3.	R-squared and adjusted R-squared statistics. 
