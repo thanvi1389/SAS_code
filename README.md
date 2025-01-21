@@ -8,14 +8,19 @@ Function Overview: The %ols_reg macro performs multiple linear regression and ou
 4.	Optional ANOVA results, including F-statistic and p-values. 
 
 Parameters  
-        data: The input dataset containing the outcome and predictor variables. 
-	outcome: The dependent (outcome) variable.  
-        predictor: A space-separated list of independent (predictor) variables. 
-	miss: The value that indicates missing data in the dataset (default: .).  
-        reg: Controls whether ANOVA results are included. Default is Y (include ANOVA).  
-	format: Specifies the output format: 
+1.	data: The input dataset containing the outcome and predictor variables. 
+2.	outcome: The dependent (outcome) variable.  
+3.	predictor: A space-separated list of independent (predictor) variables 
+4.	miss: The value that indicates missing data in the dataset (default: .).
+5.	reg: Controls whether ANOVA results are included. Default is Y (include ANOVA).
+6.	format: Specifies the output format: 
         	P: PDF
 	        R: RTF 
+        
+	
+          
+        
+	
   
 How to Use %ols_reg 
 Set Path: Specify the directory containing the macro and dataset: 
