@@ -17,6 +17,7 @@ Parameters:
         	
 How to Use %ols_reg: 
 Set Path: Specify the directory containing the macro and dataset.
+
 eg: %let path = /home/u63980097/sasuser.v94/SAS_Thanwi/BS803;	  
     libname BS803 "&path.";  
     %include "&path./ols-reg.sas";  
