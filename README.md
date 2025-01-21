@@ -1,5 +1,5 @@
 Objective: 
-A macro to perform multiple linear regression using ordinary least squares (OLS) estimation from first principles. The implementation avoids using built-in linear regression function, focusing instead on coding the mathematical computations for regression. 
+A macro to perform multiple linear regression using ordinary least squares (OLS) estimation from first principles using PROC IML. The implementation avoids using built-in linear regression function, focusing instead on coding the mathematical computations for regression. 
   
 Function Overview: The %ols_reg macro performs multiple linear regression and outputs: 
 1.	Parameter estimates for predictors. 
@@ -17,8 +17,9 @@ Parameters:
         	
 How to Use %ols_reg: 
 Set Path: Specify the directory containing the macro and dataset: 
-eg:        %let path = /home/u63980097/sasuser.v94/SAS_Thanwi/BS803; libname BS803 "&path."; 
-              %include "&path./ols-reg.sas"; 
+eg:        %let path = /home/u63980097/sasuser.v94/SAS_Thanwi/BS803;
+           libname BS803 "&path."; 
+           %include "&path./ols-reg.sas"; 
 1.	Prepare the Dataset: Ensure your dataset is accessible in the specified library. 
 2.	Run the Macro: Call the macro with the required parameters as shown in the example above. 
 3.	Locate the Output: Check the specified directory for the output file (_ols_results.pdf or _ols_results.rtf). 
